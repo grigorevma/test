@@ -10,7 +10,7 @@ currencies = {
 
 Secret_to_piastrix = "SecretKey01"
 SHOP_ID = "5"
-PAY_WAY = "card_rub"
+PAY_WAY = "payeer_rub"
 
 
 class Config:

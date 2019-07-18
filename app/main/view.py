@@ -42,7 +42,8 @@ def index():
                                    method=method, values=values)
 
         elif form.currency.data == "USD":
-            sign = create_sign(form.amount.data,
+            sign = create_sign(currencies[form.currency.data],
+                               form.amount.data,
                                currencies[form.currency.data],
                                SHOP_ID, shop_order_id)
             data = {
